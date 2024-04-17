@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #b5c18e;
+}
+
+.cursive {
+  font-family: "Lexend", sans-serif;
+}
+
+.button-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5c18e;
+  color: white;
+  cursor: pointer;
+  width: 12rem;
+  height: 4rem;
+  padding: 2px 5px;
+  font-size: 1.3rem;
+}
+
