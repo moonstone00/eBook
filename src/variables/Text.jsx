@@ -8,7 +8,7 @@ export function NavbarText() {
 }
 // Headers End
 
-// Body Start
+// Home Intro Start
 export function CreatorText() {
     return (
         <>
@@ -16,3 +16,44 @@ export function CreatorText() {
         </>
     )
 }
+
+export function WelcomeText() {
+    return (
+        <>
+            <h1>how to product</h1>
+        </>
+    )
+}
+
+export function ButtonTextOrderNow() {
+    return (
+        <>
+            order now
+        </>
+    )
+}
+
+export function ProductHuntText() {
+    return (
+        <>
+            <p>product hunt</p>
+        </>
+    )
+}
+
+export function OneBestProduct() {
+    return (
+        <>
+            <p>#1 product of the day</p>
+        </>
+    )
+}
+
+export function ChapterText() {
+    return (
+        <>
+            8 chapter, 160 pages
+        </>
+    )
+}
+// Home Intro End

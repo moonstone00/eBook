@@ -1,4 +1,4 @@
-import Creator from "./components/creator/Creator"
+import HomeIntro from "./components/home/HomeIntro"
 import Navbar from "./components/navbar/Navbar"
 import './index.css'
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Creator/>
+      <HomeIntro/>
     </>
   )
 }
