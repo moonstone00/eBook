@@ -57,3 +57,37 @@ export function ChapterText() {
     )
 }
 // Home Intro End
+
+// Home Organizations Start
+export function DonateProceedsToOrganizations() {
+    return (
+        <>
+            <p>All proceeds from the sale of the physical copy of How To Product will go to the following organizations.</p>
+        </>
+    )
+}
+
+export function BlackLivesMatterText() {
+    return (
+        <>
+            <p>black lives matter</p>
+        </>
+    )
+}
+
+export function PeaceText() {
+    return (
+        <>
+            <p>peace</p>
+        </>
+    )
+}
+
+export function SavePalestineText() {
+    return (
+        <>
+            <p>save palestine</p>
+        </>
+    )
+}
+// Home Organizations End

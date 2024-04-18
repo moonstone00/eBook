@@ -7,7 +7,7 @@ import { ButtonTextOrderNow, OneBestProduct, ProductHuntText } from '../../varia
 
 export default function HomeIntro() {
     return (
-        <div className='h-[90vh] p-4'>
+        <div className='min-h-screen p-4'>
             <Creator/>
             <HowToProduct/>
             <div className='button-primary capitalize'>
@@ -26,7 +26,7 @@ export default function HomeIntro() {
                     </span>
                 </div>
             </div>
-            <div className='w-full h-96'>
+            <div className='w-full'>
                 <Book/>
             </div>
         </div>
