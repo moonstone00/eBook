@@ -51,3 +51,10 @@ body {
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 350px) {
+  .button-secondary {
+    padding: 8px 2px;
+    font-size: 1rem;
+    background-color: red;
+  }
+}
