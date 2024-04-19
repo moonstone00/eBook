@@ -1,33 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Color */
+  --color-primary: #b5c18e;
+  --color-secondary: #D37676;
+
+  /* Font */
+  --font-primary: "Lexend", sans-serif;
+  --font-secondary: "Sedan", serif;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #b5c18e;
+  background-color: var(--color-primary);
 }
 
 .cursive {
-  font-family: "Lexend", sans-serif;
+  font-family: var(--font-primary);
 }
 
 .text-get-book {
-  font-family: "Sedan", serif;
+  font-family: var(--font-secondary);
 }
 
 .button-primary {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Sedan", serif;
+  font-family: var(--font-secondary);
   font-style: normal;
-  background-color: #D37676;
+  background-color: var(--color-secondary);
   color: white;
   cursor: pointer;
   width: 12rem;
@@ -42,7 +51,7 @@ body {
   align-items: center;
   font-family: "Sedan", serif;
   font-style: normal;
-  background-color: #D37676;
+  background-color: var(--color-secondary);
   color: white;
   cursor: pointer;
   width: 80%;
@@ -55,6 +64,5 @@ body {
   .button-secondary {
     padding: 8px 2px;
     font-size: 1rem;
-    background-color: red;
   }
 }

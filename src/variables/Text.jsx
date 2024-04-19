@@ -108,3 +108,21 @@ export function PaperbackText() {
         </>
     )
 }
+// Home Get the Book End
+
+// Footer Start
+export function EmailText() {
+    return (
+        <>
+            <p>Email us ebook@example.com</p>
+        </>
+    )
+}
+
+export function CopyRight() {
+    return (
+        <>
+            <p>© 2024 Darlene Lancer . All rights reserved.</p>
+        </>
+    )
+}
