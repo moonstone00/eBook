@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,6 +17,10 @@ body {
   font-family: "Lexend", sans-serif;
 }
 
+.text-get-book {
+  font-family: "Sedan", serif;
+}
+
 .button-primary {
   display: flex;
   justify-content: center;
@@ -28,6 +33,21 @@ body {
   width: 12rem;
   height: 4rem;
   padding: 2px 5px;
+  font-size: 1.3rem;
+}
+
+.button-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sedan", serif;
+  font-style: normal;
+  background-color: #D37676;
+  color: white;
+  cursor: pointer;
+  width: 80%;
+  height: auto;
+  padding: 8px 5px;
   font-size: 1.3rem;
 }
 

@@ -4,3 +4,4 @@ export const medal = '../../assets//images/medal.png';
 export const blackLivesMatter = '../../assets//images/blackLivesMatter.jpg';
 export const peace = '../../assets/images/peace.jpg';
 export const palestine = '../../assets/images/palestine.jpg';
+export const amazonePay = '../../assets/images/amazon-pay.png';

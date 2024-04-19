@@ -91,3 +91,20 @@ export function SavePalestineText() {
     )
 }
 // Home Organizations End
+
+// Home Get the Book Start
+export function BuyTheBook() {
+    return (
+        <>
+            <p>get the book</p>
+        </>
+    )
+}
+
+export function PaperbackText() {
+    return (
+        <>
+            <p>paperback</p>
+        </>
+    )
+}
