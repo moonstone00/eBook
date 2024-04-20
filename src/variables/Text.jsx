@@ -93,7 +93,7 @@ export function SavePalestineText() {
 // Home Organizations End
 
 // Home Get the Book Start
-export function BuyTheBook() {
+export function BuyTheBookText() {
     return (
         <>
             <p>get the book</p>
